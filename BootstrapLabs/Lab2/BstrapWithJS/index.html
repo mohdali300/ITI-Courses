@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="../FigmaDesign/styles/bootstrap.css"/>
+</head>
+<body class="bg-light py-5">
+
+  <div class="container">
+    <h2 class="text-center text-primary fw-bold mb-4">Our Products</h2>
+    <div class="row g-3" id="productsContainer"></div>
+  </div>
+
+  <script>
+    const products = [
+      { img: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=200&q=80", name: "Product 1", stock: 25, price: 10000 },
+      { img: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=200&q=80", name: "Product 2", stock: 40, price: 30000 },
+      { img: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=200&q=80", name: "Product 3", stock: 20, price: 20000 },
+      { img: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=200&q=80", name: "Product 4", stock: 25, price: 10000 },
+      { img: "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=200&q=80", name: "Product 5", stock: 40, price: 30000 },
+      { img: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=200&q=80", name: "Product 6", stock: 20, price: 20000 },
+      { img: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=200&q=80", name: "Product 7", stock: 20, price: 20000 },
+      { img: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=200&q=80", name: "Product 8", stock: 20, price: 20000 },
+    ];
+
+    const container = document.getElementById("productsContainer");
+
+    products.forEach(product => {
+      const col = document.createElement("div");
+      col.className = "col-12 col-sm-6 col-lg-3";
+
+      col.innerHTML = `
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="row g-0 align-items-center">
+            <div class="col-4">
+              <img src="${product.img}" class="img-fluid rounded-start" style="height:90px; width:100%; object-fit:cover;" alt="${product.name}"/>
+            </div>
+            <div class="col-8">
+              <div class="card-body py-2 px-3">
+                <h6 class="card-title fw-bold mb-1">${product.name}</h6>
+                <p class="mb-0 text-primary fw-semibold" style="font-size:.85rem;">Price: $${product.price.toLocaleString()}</p>
+                <p class="mb-0 text-secondary" style="font-size:.8rem;">Stock: ${product.stock}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      container.appendChild(col);
+    });
+  </script>
+
+</body>
+</html>

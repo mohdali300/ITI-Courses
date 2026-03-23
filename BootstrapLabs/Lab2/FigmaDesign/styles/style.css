@@ -1,0 +1,35 @@
+:root {
+      --blue: #2563eb;
+      --blue-light: #eff6ff;
+    }
+    body { font-family: 'Segoe UI', sans-serif; }
+
+    /* Navbar */
+    .nav-link { color: #374151 !important; font-size: .9rem; }
+    .nav-link:hover, .nav-link.active { color: var(--blue) !important; }
+
+    /* Hero */
+    .hero { padding: 80px 0 60px; }
+    .hero h1 { font-weight: 800; font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1.2; }
+    .hero p { color: #6b7280; font-size: .92rem; }
+
+    /* Services */
+    .services { background: var(--blue-light); }
+    .service-card { border: none; border-radius: 12px; transition: box-shadow .2s; }
+    .service-card:hover { box-shadow: 0 6px 20px rgba(37,99,235,.12); }
+    .service-icon { font-size: 1.8rem; color: var(--blue); }
+
+    /* Testimonial */
+    .testimonials { background: linear-gradient(135deg, #60a5fa, #2563eb); }
+    .testimonial-card { background: rgba(255,255,255,.15); border-radius: 16px; }
+
+    /* Footer */
+    footer { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+    footer a { color: rgba(255,255,255,.75); text-decoration: none; font-size: .85rem; }
+    footer a:hover { color: #fff; }
+
+    /* Divider accent */
+    .accent-line { width: 40px; height: 3px; background: var(--blue); border-radius: 2px; }
+
+    /* Article card image */
+    .article-img { height: 180px; object-fit: cover; }
