@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="DataSource1">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=.;Initial Catalog=ITI;TrustServerCertificate=True</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>1045023a-f22a-4a93-b902-7584b45ae1db</DataSourceID>
+</RptDataSource>
