@@ -1,0 +1,30 @@
+function openNewEmployeeForm(primaryControl) {
+    // 1. Capture the current Company details
+    var companyId = primaryControl.data.entity.getId();
+    var companyName = primaryControl.data.entity.getPrimaryAttributeValue();
+    var entityName = primaryControl.data.entity.getEntityName();
+
+    // 2. Set target entity options
+    // Assuming your table logical name is 'iti_employee' based on your column prefix
+    var entityFormOptions = {
+        entityName: "iti_employee" 
+    };
+
+    // 3. Map the current Company to the 'Company Name' lookup field
+    // Logical name 'iti_CompanyName' from your screenshot must be lowercase here
+    var formParameters = {
+        "iti_companyname": companyId,
+        "iti_companynamename": companyName,
+        "iti_companynametype": entityName
+    };
+
+    // 4. Open the form
+    Xrm.Navigation.openForm(entityFormOptions, formParameters).then(
+        function (success) {
+            console.log("Employee form opened successfully.");
+        },
+        function (error) {
+            console.log("Error: " + error.message);
+        }
+    );
+}

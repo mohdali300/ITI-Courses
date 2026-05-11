@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{4d34f095-b631-4930-809e-4d05317c3b29}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{e026d78f-6d74-4058-985d-2197af58943f}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="Header" id="f53e2bbc-fb88-47fe-9ccd-2399d4ae9757" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Header" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{01d8271b-5347-410c-8197-b2e46a8feac4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Company Name" languagecode="1033" />
+                        </labels>
+                        <control id="iti_companyname" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iti_companyname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3eef08c9-5504-40f2-a2e8-5ca03646f24d}" name="General">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{88670059-0403-4bc8-b1f2-90d4e082b7fc}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="iti_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="iti_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54b56417-1fc3-4d63-ba59-b3736376c1ea}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Code" languagecode="1033" />
+                        </labels>
+                        <control id="iti_code" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="iti_code" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7b9acb71-e120-4d05-ae55-e2d8b2d16912}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Company Name" languagecode="1033" />
+                        </labels>
+                        <control id="iti_companyname" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iti_companyname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{825cb0e7-5f54-4e8e-bfb1-19dd89e82adb}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Mobile number " languagecode="1033" />
+                        </labels>
+                        <control id="iti_mobilenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="iti_mobilenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bdb86d56-cc33-4a28-abdf-f55ae18e87c4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="iti_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="iti_email" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{05083429-e46b-4fd8-9530-de4021be3f57}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Join Date" languagecode="1033" />
+                        </labels>
+                        <control id="iti_joindate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="iti_joindate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0cce5bd0-19bd-4311-9b5e-00440a3e7010}" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54176dd8-27fd-46dc-b8d0-6ba20f5e0d4b}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Have Children" languagecode="1033" />
+                        </labels>
+                        <control id="iti_havechildren" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="iti_havechildren" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4f2e2ccd-5137-4a58-a0e0-e1a460629e79}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="No of children " languagecode="1033" />
+                        </labels>
+                        <control id="iti_noofchildren" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="iti_noofchildren" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a2bc9cba-576b-499e-982f-fa579f095142}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Spouse name " languagecode="1033" />
+                        </labels>
+                        <control id="iti_spousename" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="iti_spousename" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7553e1b5-949a-4624-83ba-a37c73d842f3}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Marital status " languagecode="1033" />
+                        </labels>
+                        <control id="iti_maritalstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="iti_maritalstatus" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="Medicalinsurance" id="92b8cef8-83ed-476c-8943-d109459e406b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Medical insurance" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{d43d56dc-f44e-46dd-9fac-0410dadb600c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Medical Id" languagecode="1033" />
+                        </labels>
+                        <control id="iti_medicalid" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="iti_medicalid" disabled="false" />
+                      </cell>
+                      <cell id="{99cbdf92-df32-4f01-8064-c24f21b6ce17}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Marital status " languagecode="1033" />
+                        </labels>
+                        <control id="iti_maritalstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="iti_maritalstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a6af982f-473c-4755-bb6a-dea87b1fe9f3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Spouse name " languagecode="1033" />
+                        </labels>
+                        <control id="iti_spousename" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="iti_spousename" disabled="false" />
+                      </cell>
+                      <cell id="{6ffd5d40-6364-4de5-b44f-879a6f5a52b0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Have Children" languagecode="1033" />
+                        </labels>
+                        <control id="iti_havechildren" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="iti_havechildren" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c60f0f29-8b54-4ad6-bb48-21d5eeb46884}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="No of children " languagecode="1033" />
+                        </labels>
+                        <control id="iti_noofchildren" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="iti_noofchildren" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{5592b0c0-1865-4e5e-85c1-eb62b20ab198}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{c786a225-04b3-42d5-8fa4-221a8562e34f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a80e9941-83ad-4d02-9fab-7aa4c5882a91}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7e25598b-b1e1-4cc2-8e69-4f92bc6a0461}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d1b5b3a1-e544-4e99-921f-860047f54924}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{b6bf40ef-090a-49ba-b5e6-4e940eaa93e4}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{81f3e919-cc19-41a4-86ec-71cf29ba56fa}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2822e190-dffc-41b9-9af3-daca9bc48d23}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7b93ea7b-f32b-484f-912b-f23384b8ad92}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
