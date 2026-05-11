@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.26042.165" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26042.165" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.26042.00165">
+  <SolutionManifest>
+    <UniqueName>CompanySolution</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="CompanySolution" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>iti</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="ITI" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>iti</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>82830</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="iti_company" behavior="0" />
+      <RootComponent type="1" schemaName="iti_employee" behavior="0" />
+      <RootComponent type="1" schemaName="iti_payment" behavior="0" />
+      <RootComponent type="29" id="{434d3a9f-e444-f111-bec5-7ced8d728d07}" behavior="0" />
+      <RootComponent type="29" id="{45a44312-5a4a-f111-bec7-6045bddd4930}" behavior="0" />
+      <RootComponent type="29" id="{e0474e2c-e644-f111-bec5-7ced8d728d07}" behavior="0" />
+      <RootComponent type="29" id="{fd9ef9e4-e544-f111-bec5-7ced8d728d07}" behavior="0" />
+      <RootComponent type="300" schemaName="iti_companyappdefaultcommandlibrary_99328" behavior="0" />
+      <RootComponent type="60" id="{2472b0e8-514a-f111-bec7-6045bddd4930}" />
+      <RootComponent type="60" id="{b0770562-554a-f111-bec7-6045bddd4930}" behavior="0" />
+      <RootComponent type="61" schemaName="iti_CompanyFormScripts" behavior="0" />
+      <RootComponent type="62" schemaName="iti_CompanyApp" behavior="0" />
+      <RootComponent type="80" schemaName="iti_CompanyApp" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="2" schemaName="correlatedsubjectchanged" displayName="Correlated subject changed" parentSchemaName="email" parentDisplayName="Email" solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package appName="msdynce_Activities" version="9.0.26042.260415003">msdynce_EnableUCIByDefault (9.0.26042.260415003)</package>
+          <package appName="ActivitiesInfra Package" version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent type="29" displayName="Assign And Send Email WF" id="{45a44312-5a4a-f111-bec7-6045bddd4930}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="isduplicatesenderunresolved" displayName="Is Duplicate Sender Unresolved" parentSchemaName="email" parentDisplayName="Email" solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package appName="msdynce_Activities" version="9.0.26042.260415003">msdynce_EnableUCIByDefault (9.0.26042.260415003)</package>
+          <package appName="ActivitiesInfra Package" version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent type="29" displayName="Assign And Send Email WF" id="{45a44312-5a4a-f111-bec7-6045bddd4930}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="iti_CompanyApp" displayName="CompanyApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.16)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.25">PowerAppsAppFramework_Anchor (1.0.0.25)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=iti_CompanyApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="iti_CompanyApp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

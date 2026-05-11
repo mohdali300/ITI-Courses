@@ -1,0 +1,32 @@
+<appaction uniquename="iti__NewEmployee!daf2bea2e9fc462fb70635bd78e96480!iti_CompanyApp!iti_company!1">
+  <appmoduleid>
+    <uniquename>iti_CompanyApp</uniquename>
+  </appmoduleid>
+  <buttonlabeltext default="New Employee">
+    <label description="New Employee" languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>iti_company</logicalname>
+  </contextentity>
+  <contextvalue>iti_company</contextvalue>
+  <fonticon>$clientsvg:Add</fonticon>
+  <hidden>1</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>NewEmployee!daf2bea2e9fc462fb70635bd78e96480</name>
+  <onclickeventjavascriptfunctionname>openNewEmployeeForm</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":5}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>748927dd-d447-f111-bec7-6045bddd4930</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>0</origin>
+  <sequence>1000100005.5000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

@@ -1,0 +1,4 @@
+iti_companysizecategory: |-
+    =If(iti_numberofemployees < 50, "Small", 
+       iti_numberofemployees <= 200, "Medium", 
+       "Large")

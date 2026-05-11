@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b96cc074-9bfa-4623-bd21-999ba3e3a78e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="iti_name" select="1" icon="1" preview="1">
+        <row name="result" id="iti_employeeid">
+          <cell name="iti_name" width="185" />
+          <cell name="iti_code" width="100" />
+          <cell name="iti_companyname" width="132" />
+          <cell name="iti_email" width="100" />
+          <cell name="iti_joindate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="iti_employee">
+          <attribute name="iti_employeeid" />
+          <attribute name="iti_name" />
+          <order attribute="iti_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="iti_code" />
+          <attribute name="iti_companyname" />
+          <attribute name="iti_email" />
+          <attribute name="iti_joindate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Employees" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
