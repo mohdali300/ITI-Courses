@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "Orders.InventoryService.Protos";
+
+//package inventory;
+
+service InventoryService {
+  rpc DeductQuantity(DeductQuantityRequest) returns (DeductQuantityResponse);
+}
+
+message DeductQuantityRequest {
+  int32 item_id = 1;
+  int32 quantity = 2;
+}
+
+message DeductQuantityResponse {
+  bool success = 1;
+  string message = 2;
+}

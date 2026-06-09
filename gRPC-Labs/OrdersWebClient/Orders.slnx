@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Orders.API/Orders.API.csproj" />
+  <Project Path="Orders.InventoryService/Orders.InventoryService.csproj" />
+  <Project Path="Orders.PaymentService/Orders.PaymentService.csproj" />
+  <Project Path="Orders.Service/Orders.Service.csproj" Id="54ff85f0-78a1-4068-94dd-bb03c6eaf9b8" />
+</Solution>

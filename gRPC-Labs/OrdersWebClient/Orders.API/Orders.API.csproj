@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.49.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\Orders.InventoryService\Protos\Inventory.proto" GrpcServices="Client">
+      <Link>Protos\Inventory.proto</Link>
+    </Protobuf>
+    <Protobuf Include="..\Orders.PaymentService\Protos\Payment.proto" GrpcServices="Client">
+      <Link>Protos\Payment.proto</Link>
+    </Protobuf>
+  </ItemGroup>
+
+</Project>
