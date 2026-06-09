@@ -33,12 +33,13 @@ pac auth create --url https://yourorg.crm.dynamics.com
 
 ### 2. Clone the repo
 ```bash
-git clone https://github.com/youruser/yourrepo.git
-cd yourrepo
+git clone https://github.com/mohdali300/ITI-Courses.git
+cd ITI-Courses
 ```
 
 ### 3. Pack & Deploy
 ```powershell
+cd CRM-Lab
 ./pack-and-deploy.ps1
 ```
 
